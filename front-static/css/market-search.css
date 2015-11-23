@@ -1,0 +1,81 @@
+#marketSearch:focus {
+    outline: none;
+}
+
+li.market-search-field {
+    padding: 4px;
+}
+
+div.market-search-dropdown ul {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+li.market-search-res {
+    padding-top: 6px;
+    border-bottom: 1px #e5e5e5 solid;
+    cursor: pointer;
+    padding-bottom: 4px;
+    width: 100%;
+    height: 55px;
+}
+li.market-search-res.category {
+    height: 40px;
+    font-size: 16px;
+    line-height: 30px;
+    color: #252232;
+    font-weight: 700;
+}
+li.market-search-res img {
+    width: 55px;
+    height: 40px;
+    margin-left: 1%;
+    float: left;
+    border-radius: 2px;
+}
+li.market-search-res div.res-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+li.market-search-res div.span-div {
+    float: left;
+    margin-left: 2%;
+}
+li.market-search-res div.span-div {
+    width: 83%;
+}
+li.market-search-res div.span-div span.tagline {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #929098;
+    line-height: 122%;
+    font-size: 11px;
+}
+li.market-search-res div.span-div div.label-container {
+    width: 91%;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 700;
+    font-size: 16px;
+    color: #252232;
+    margin: 0;
+    line-height: 119%;
+    text-transform: none;
+}
+li.market-search-res div.span-div div.tagline-container {
+    width: 91%;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+div.market-search-dropdown ul {
+    min-width: 400px;
+}
+li.market-search-res.ui-state-focus {
+    background: rgba(37, 34, 50, 0.05);
+    outline: none;
+}
+
+.ui-helper-hidden-accessible { display:none; }

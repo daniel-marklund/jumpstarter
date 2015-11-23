@@ -1,0 +1,160 @@
+header {
+    background-image: url("../img/landing/cafe.jpg");
+    background-size: cover;
+    background-position: 0 -90px;
+}
+
+.navbar {
+    border-radius: 0;
+    margin-bottom: 0;
+    background-color: transparent;   
+}
+.navbar-default.navbar-shrink {
+    background-color: transparent;
+}
+
+.navbar-default.navbar-shrink.cta-bar {
+    background-color: #252232;
+}
+
+.navbar-default .nav li a.btn {
+    padding: 12px 40px;
+    border-color: #0BB6C6;
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: normal;
+    color: #fff;
+    background-color: #0BB6C6;
+    text-transform: none;
+    letter-spacing: 0;
+    margin-top: 0;
+}
+
+.navbar-right {
+    margin-right: 150px;
+}
+
+.hidden {
+    display: none;
+}
+
+header .cover {
+   background-color: rgba(37,34,50,0.6);
+}
+
+header.narrow .intro-text {
+    padding-top: 120px;
+}
+
+header.narrow .intro-text .intro-heading {
+    font-size: 36px;
+}
+
+header .intro-text .intro-lead-in {
+    margin-bottom: 20px;
+}
+
+.cta-btn {
+    margin: 30px 0 60px 0;
+}
+
+.press {
+    text-align: center;
+    padding: 30px 0;
+}
+.press img {
+    margin-right: 40px;
+}
+
+.bg-dark blockquote {
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    border-left: none;
+    width: auto;
+    margin-top: 30px;
+}
+
+.bg-dark blockquote:before {
+    content: "";
+}
+
+.bg-dark blockquote p {
+    font-size: 26px;
+}
+
+.bg-dark blockquote footer {
+    position: relative;
+    height: auto;
+}
+
+.container-features li {
+    font-size: 22px;
+}
+
+.container-features .js-icon {
+    font-size: 20px;
+}
+
+
+.modal-content .btn-primary {
+    font-size: 15px;
+        font-weight: normal;
+}
+
+.modal-content .btn-primary:hover {
+    border-color: #009fae;
+    background-color: #00aaba;
+}
+
+.carousel {
+    padding: 0 10px;
+    position: relative;
+}
+
+.carousel img {
+    margin-right: 10px;
+}
+
+.voffset  { margin-top: 2px; }
+.voffset1 { margin-top: 5px; }
+.voffset2 { margin-top: 10px; }
+.voffset3 { margin-top: 15px; }
+.voffset4 { margin-top: 30px; }
+.voffset5 { margin-top: 40px; }
+.voffset6 { margin-top: 60px; }
+.voffset7 { margin-top: 80px; }
+
+@media(max-width: 992px) {
+    .navbar-right {
+        margin-right: 0;
+    }
+    header {
+        background-image: url("/static/images/landing/cafe.jpg");
+        background-size: cover;
+        background-position: 0 0;
+    }
+}
+
+@media(max-width: 767px) {
+    .navbar-header {
+        float: left;
+    }
+    .navbar-right {
+        margin: 10px 0;
+        float: right;
+    }
+}
+
+@media(max-width: 416px) {
+    .navbar-header {
+        text-align: center;
+        float: none;
+    }
+    .navbar-right {
+        margin: 10px 0;
+        float: none;
+    }
+    .navbar-default .nav li a.btn {
+        text-align: center;
+    }
+}
